@@ -1,0 +1,61 @@
+# Tech Challenge - Requisitos para Colaboradores
+# Este arquivo lista as ferramentas e versões necessárias para trabalhar no projeto
+
+## 🔧 Node.js e Gerenciadores de Pacotes
+# Node.js 18.0+ (obrigatório)
+# Download: https://nodejs.org/en/download/
+# Ou use nvm: https://github.com/nvm-sh/nvm
+
+node >= 18.0.0
+npm >= 8.0.0
+# Alternativa: yarn >= 1.22.0
+
+## 📝 Editores de Código (Recomendados)
+# VS Code com extensões específicas
+code >= 1.74.0
+
+## 🌐 Navegadores para Testes
+chrome >= 108.0
+firefox >= 107.0
+safari >= 16.0
+
+## 🛠️ Ferramentas de Linha de Comando Úteis
+# Git para controle de versão
+git >= 2.38.0
+
+## 📦 Extensões VS Code Obrigatórias
+# Instale via VS Code Marketplace:
+# - ms-vscode.vscode-json
+# - yzhang.markdown-all-in-one
+# - bierner.markdown-mermaid
+# - esbenp.prettier-vscode
+# - dbaeumer.vscode-eslint
+# - eamodio.gitlens
+
+## 🐳 Docker (Opcional, para deploy)
+# Docker Desktop para Windows/Mac ou Docker Engine para Linux
+docker >= 20.10.0
+docker-compose >= 2.12.0
+
+## 📱 Ferramentas de Visualização
+# Para diagramas Mermaid:
+# - Editor online: https://mermaid.live
+# - Extensão VS Code: bierner.markdown-mermaid
+
+## 🔍 Verificação de Instalação
+# Execute estes comandos para verificar se tudo está instalado:
+node --version
+npm --version
+git --version
+code --version  # se usar VS Code
+
+## 📋 Comandos Rápidos de Setup
+# Após clonar o repositório:
+npm install
+npm start
+
+## 🚨 Notas Importantes
+# 1. Use Node.js 18+ para compatibilidade com Docusaurus 3.x
+# 2. Windows: Use PowerShell ou Git Bash para comandos Unix
+# 3. Linux/Mac: Use terminal nativo
+# 4. Se tiver problemas, limpe o cache: npm cache clean --force
