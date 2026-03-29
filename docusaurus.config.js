@@ -7,7 +7,7 @@ const { themes } = require('prism-react-renderer');
 const config = {
   title: 'Tech Challenge - Oficina Mecânica',
   tagline: 'Documentação do Sistema de Gestão de Oficina Mecânica',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
 
   // Set the production url of your site here
   url: 'https://anabe-apereira.github.io',
